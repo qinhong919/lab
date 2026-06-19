@@ -1,27 +1,28 @@
 {
   "journal": {
-    "title_cn": "国际超心理学与中国传统文化",
-    "title_en": "International Parapsychology and Chinese Traditional Culture",
-    "vol": 1,
-    "no": 1,
+    "cn": "国际超心理学与中国传统文化",
+    "en": "International Parapsychology and Chinese Traditional Culture",
+    "vol": "Vol.1",
+    "no": "No.1",
     "year": 2026
   },
+  "featured": "V1N1-02",
   "articles": [
     {
       "id": "V1N1-01",
       "type": "Editorial",
-      "title_cn": "勇于求索，诗意人生",
-      "title_en": "A Life of Exploration and Poetry",
+      "cn": "勇于求索，诗意人生",
+      "en": "A Life of Exploration and Poetry",
       "author": "张一方",
       "file": "articles/editorial.html"
     },
     {
       "id": "V1N1-02",
       "type": "Research",
-      "title_cn": "世界超心理学的比较研究和中华超心理学特色",
-      "title_en": "Comparative Study of Parapsychology",
+      "cn": "世界超心理学的比较研究和中华超心理学特色",
+      "en": "Comparative Study of Parapsychology",
       "author": "张一方",
-      "file": "articles/paper1.html"
+      "file": "articles/paper.html"
     }
   ]
 }

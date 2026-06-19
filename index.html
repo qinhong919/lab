@@ -4,21 +4,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Quantum.io Journal v3</title>
+<title>Journal UI3</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body onload="renderIndex()">
+<body onload="render()">
 
-<header>
-<img src="assets/images/logo.png">
-<div>
-<h1>国际超心理学与中国传统文化</h1>
-<div class="sub">International Parapsychology and Chinese Traditional Culture</div>
+<div class="topbar">
+ISSN 2693-8456 | Vol.1 No.1 | Open Access
 </div>
-</header>
+
+<div class="header">
+<img src="assets/images/logo.png">
+<div class="title">
+<h1>国际超心理学与中国传统文化</h1>
+<div class="en">International Parapsychology and Chinese Traditional Culture</div>
+<div class="meta">2026 · Volume 1 · Issue 1</div>
+</div>
+</div>
+
+<div class="feature">
+<h2 id="featureTitle"></h2>
+<p id="featureEn"></p>
+<a href="#">阅读全文</a>
+</div>
 
 <div class="container">
-<h2>Vol.1 No.1 · 本期文章</h2>
+<h2>本期文章</h2>
 <div id="list"></div>
 </div>
 
