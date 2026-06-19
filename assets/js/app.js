@@ -7,16 +7,17 @@ async function loadDB(){
 async function renderIndex(){
   const db = await loadDB();
   const box = document.getElementById('list');
+
   db.articles.forEach(a=>{
-    const div = document.createElement('div');
-    div.className='card';
-    div.innerHTML=`
-      <div class="badge">${a.type}</div>
+    const el = document.createElement('div');
+    el.className='card';
+    el.innerHTML=`
+      <span class="badge">${a.type}</span>
       <h3>${a.title_cn}</h3>
-      <p>${a.title_en}</p>
+      <div>${a.title_en}</div>
       <p>${a.author}</p>
       <a href="${a.file}">阅读全文</a>
     `;
-    box.appendChild(div);
+    box.appendChild(el);
   });
 }
