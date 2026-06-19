@@ -4,33 +4,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Journal UI3</title>
+<title>UI 3.2 Journal</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body onload="render()">
 
-<div class="topbar">
-ISSN 2693-8456 | Vol.1 No.1 | Open Access
-</div>
+<div class="topbar">ISSN 2693-8456 · Vol.1 No.1 · Open Access</div>
 
-<div class="header">
-<img src="assets/images/logo.png">
-<div class="title">
-<h1>国际超心理学与中国传统文化</h1>
-<div class="en">International Parapsychology and Chinese Traditional Culture</div>
-<div class="meta">2026 · Volume 1 · Issue 1</div>
-</div>
-</div>
+<header class="header">
+  <img src="assets/images/logo.png">
+  <div class="title">
+    <h1>国际超心理学与中国传统文化</h1>
+    <div class="en">International Parapsychology and Chinese Traditional Culture</div>
+    <div class="meta">2026 · Volume 1 · Issue 1</div>
+  </div>
+</header>
 
-<div class="feature">
-<h2 id="featureTitle"></h2>
-<p id="featureEn"></p>
-<a href="#">阅读全文</a>
-</div>
+<section class="hero">
+  <h2 id="heroTitle"></h2>
+  <p id="heroEn"></p>
+  <a class="btn" href="#">阅读全文</a>
+</section>
 
 <div class="container">
-<h2>本期文章</h2>
-<div id="list"></div>
+  <div id="list"></div>
+  <aside class="sidebar" id="side"></aside>
 </div>
 
 <script src="assets/js/app.js"></script>
