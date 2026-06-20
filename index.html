@@ -1,44 +1,94 @@
-
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="zh">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Quantum Journal V4</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>国际超心理学与中国传统文化</title>
+
+<link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
-<body onload="renderIndex()">
+<body>
 
-<div class="topbar">ISSN 2693-8456 · Vol.1 No.1 · Open Access</div>
-
-<div class="header">
-<img src="assets/images/logo.png">
-<div>
-<h1>国际超心理学与中国传统文化</h1>
-<div class="en">International Parapsychology and Chinese Traditional Culture</div>
-<div class="meta">V4 Publication System</div>
-</div>
+<!-- 顶部期刊信息 -->
+<div class="topbar">
+  ISSN 2693-8456 · Vol.1 No.1 · Open Access
 </div>
 
-<div class="nav">
-<button onclick="filter('all')">全部</button>
-<button onclick="filter('editorial')">发刊词</button>
-<button onclick="filter('research')">学术论文</button>
+<!-- 期刊头部 -->
+<header class="header">
+  <h1>国际超心理学与中国传统文化</h1>
+  <div class="en">International Parapsychology and Chinese Traditional Culture</div>
+  <div class="meta">Journal System V4 · Database Driven Edition</div>
+</header>
+
+<!-- 主体结构 -->
+<div class="container layout">
+
+  <!-- 左侧主内容 -->
+  <main>
+
+    <!-- 封面论文 -->
+    <section class="featured">
+      <h2>封面论文 / Featured Article</h2>
+      <h3 id="f_title">世界超心理学的比较研究和中华超心理学特色</h3>
+      <p id="f_en">Comparative Study of Parapsychology and Chinese Parapsychology</p>
+      <p>张一方 (Yi-Fang Chang)</p>
+    </section>
+
+    <!-- 论文列表 -->
+    <section id="list">
+
+      <div class="card">
+        <div class="badge">Editorial / 发刊词</div>
+        <h3>勇于求索，诗意人生</h3>
+        <p>A Life of Exploration and Poetry</p>
+        <p>张一方</p>
+      </div>
+
+      <div class="card">
+        <div class="badge">Research Article / 原创研究</div>
+        <h3>世界超心理学的比较研究</h3>
+        <p>Comparative Study of Parapsychology</p>
+        <p>张一方</p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- 右侧栏 -->
+  <aside class="sidebar">
+
+    <h3>期刊信息</h3>
+    <p>Vol.1 No.1 · 2026</p>
+    <p>Open Access Journal</p>
+
+    <hr>
+
+    <h3>栏目导航</h3>
+    <ul>
+      <li>田野调查与档案</li>
+      <li>中国传统文化</li>
+      <li>超心理研究</li>
+      <li>学术论文</li>
+    </ul>
+
+    <hr>
+
+    <h3>投稿信息</h3>
+    <p>开放投稿 / Open Submission</p>
+
+  </aside>
+
 </div>
 
-<div class="container">
-<div>
-  <div class="featured">
-    <h2 id="f_title"></h2>
-    <p id="f_en"></p>
-  </div>
+<!-- 页脚 -->
+<footer style="text-align:center;padding:20px;font-size:12px;color:#888;">
+  © International Parapsychology and Chinese Traditional Culture · Open Access
+</footer>
 
-  <div id="list"></div>
-</div>
-
-<aside class="sidebar" id="side"></aside>
-</div>
-
-<script src="assets/js/app.js"></script>
 </body>
 </html>
