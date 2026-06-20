@@ -1,98 +1,119 @@
-
 body{
   margin:0;
   font-family:"Georgia","Noto Serif SC",serif;
-  background:#eef1f6;
+  background:#eef2f7;
   color:#111;
+  line-height:1.7;
 }
 
+/* 顶部ISSN */
 .topbar{
   background:#fff;
-  padding:8px 16px;
+  padding:10px 20px;
   font-size:12px;
   color:#666;
-  border-bottom:1px solid #ddd;
+  border-bottom:1px solid #e6eaf0;
 }
 
+/* 主标题区（期刊头） */
 .header{
-  display:flex;
-  gap:16px;
-  align-items:center;
-  padding:18px;
   background:#fff;
+  padding:28px 24px;
   border-bottom:3px solid #0b376d;
 }
 
-.header img{height:58px}
-
-h1{margin:0;font-size:20px}
-
-.en{font-size:12px;color:#666}
-
-.meta{font-size:12px;color:#888}
-
-.nav{
-  background:#fff;
-  padding:10px 16px;
-  display:flex;
-  gap:10px;
-  border-bottom:1px solid #eee;
-  flex-wrap:wrap;
+.header h1{
+  margin:0;
+  font-size:26px;
+  letter-spacing:1px;
 }
 
-.nav button{
-  border:1px solid #ccc;
-  background:#fff;
-  padding:6px 10px;
-  border-radius:18px;
+.header .en{
+  margin-top:6px;
+  font-size:13px;
+  color:#666;
 }
 
-.nav button.active{
-  background:#0b376d;
-  color:#fff;
-  border-color:#0b376d;
+.header .meta{
+  margin-top:6px;
+  font-size:12px;
+  color:#999;
 }
 
+/* 主容器（关键：居中阅读区） */
 .container{
   max-width:1100px;
-  margin:18px auto;
-  display:grid;
-  grid-template-columns:2fr 1fr;
-  gap:16px;
+  margin:24px auto;
+  padding:0 16px;
 }
 
+/* 封面论文（重点拉开层级） */
 .featured{
   background:#fff;
-  padding:20px;
+  padding:24px;
+  margin-bottom:20px;
   border-left:6px solid #0b376d;
-  box-shadow:0 6px 16px rgba(0,0,0,0.05);
-  margin-bottom:16px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.06);
 }
 
+.featured h2{
+  margin:0;
+  font-size:14px;
+  color:#0b376d;
+  letter-spacing:1px;
+}
+
+.featured h3{
+  margin:10px 0 6px;
+  font-size:20px;
+}
+
+.featured p{
+  color:#666;
+}
+
+/* 论文卡片（期刊标准样式） */
 .card{
   background:#fff;
-  padding:16px;
-  margin-bottom:12px;
-  border-left:3px solid #0b376d;
+  padding:18px 20px;
+  margin-bottom:14px;
+  border-radius:8px;
+  border:1px solid #e8edf3;
+  box-shadow:0 4px 14px rgba(0,0,0,0.04);
 }
 
 .badge{
+  display:inline-block;
+  font-size:11px;
   background:#0b376d;
   color:#fff;
-  font-size:11px;
-  padding:2px 8px;
+  padding:3px 10px;
+  border-radius:12px;
+  margin-bottom:8px;
 }
 
+/* 标题层级 */
+.card h3{
+  margin:6px 0;
+  font-size:18px;
+}
+
+.card p{
+  margin:4px 0;
+  color:#666;
+}
+
+/* 侧栏 */
 .sidebar{
   background:#fff;
-  padding:16px;
-  border:1px solid #ddd;
+  padding:18px;
+  border:1px solid #e6eaf0;
+  box-shadow:0 6px 16px rgba(0,0,0,0.04);
 }
 
-.article{
-  max-width:800px;
-  margin:40px auto;
-  background:#fff;
-  padding:30px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.05);
+/* 双栏结构优化 */
+.layout{
+  display:grid;
+  grid-template-columns:2.2fr 1fr;
+  gap:20px;
 }
