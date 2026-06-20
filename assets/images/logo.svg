@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<g transform="translate(256 256) scale(0.9) translate(-256 -256)">
-<path fill="#000000" d="M256 0c141.4 0 256 114.6 256 256S397.4 512 256 512c-70.7 0-128-57.3-128-128S185.3 256 256 256s128-57.3 128-128S326.7 0 256 0z"></path>
-<path fill="#ffffff" d="M256 0c-141.4 0-256 114.6-256 256s114.6 256 256 256c70.7 0 128-57.3 128-128S326.7 256 256 256s-128-57.3-128-128S185.3 0 256 0z"></path>
-<circle cx="256" cy="128" r="32" fill="#000000"/>
-<circle cx="256" cy="384" r="32" fill="#ffffff"/>
-</g>
-<g fill="#2E7D32">
-<path d="M256 402c-11 0-19 8-19 18v64c0 10 8 18 19 18s19-8 19-18v-64c0-10-8-18-19-18z"/>
-<path d="M176 412c-16 0-26 11-26 26 0 38 44 74 106 74-6-52-32-100-80-100z"/>
-<path d="M336 412c16 0 26 11 26 26 0 38-44 74-106 74 6-52 32-100 80-100z"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 190"><ellipse cx="130" cy="130" rx="105" ry="45" fill="none" stroke="#76a77c" stroke-width="3"/><g transform="translate(130 72)"><circle r="58" fill="#fff" stroke="#111" stroke-width="3"/><path d="M0,-58a58,58 0 0 1 0,116c-21,0-21,-29 0,-29c21,0 21,-29 0,-29c-21,0-21,-29 0,-29z" fill="#000"/><circle cx="0" cy="-29" r="10" fill="#000"/><circle cx="0" cy="29" r="10" fill="#fff"/></g><path d="M130 130 C105 112,75 116,63 142 C93 145,116 143,130 130Z" fill="#2e7d32"/><path d="M130 130 C155 112,185 116,197 142 C167 145,144 143,130 130Z" fill="#2e7d32"/><path d="M130 126 L130 174" stroke="#2e7d32" stroke-width="8" stroke-linecap="round"/></svg>
